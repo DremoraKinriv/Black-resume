@@ -1,0 +1,154 @@
+* h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl{
+    margin: 20px 0;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Essence Sans"; /* Гарнитура шрифта */
+    src: url("../fonts/essencesans.ttf"); /* Путь к файлу со шрифтом */
+ }
+@font-face {
+   font-family: "Essence Sans Bold";
+   src: url("../fonts/EssenceSansBold.ttf");
+}
+ @font-face {
+   font-family: "Helvetica Neuel LT";
+   src: url("../fonts/HelveticaNeuelLt.otf");
+}
+@font-face {
+   font-family: "Attentica 4F UltraLight";
+   src: url("../fonts/Attentic4FUltraLight.otf");
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0 auto;
+	background-color: #2d2d2d;
+	color: #7f8b91;
+	text-transform: uppercase;
+	text-align: center;
+}
+header {
+	background: url(../img/header.png) no-repeat center top / cover;
+	}
+#all {
+	max-width:1920px;
+	overflow:hidden;
+	margin: 0 auto;
+}
+.pic {
+	text-align: center;
+}
+.title h3 {
+	font-family:"Essence Sans Bold";
+	font-size: 48pt; 
+	color: #08dbe3;
+}
+.title {
+	text-align: center;
+	padding-top: 80px;
+}
+.title h1{
+	font-family:"Essence Sans"; 
+	font-size: 72pt;
+	line-height: 0,5em;
+	color: #fefefe;
+}
+.contacts div {
+	display: block;
+	padding-top: 3px;
+	float: left;
+	font-size: 30px;
+	font-family:"Helvetica Neuel LT";
+}
+.contacts div:last-child {
+	float: right;
+	padding-bottom: 10px;
+}
+.gmail {
+	margin-left: 130px;
+}
+.in {
+	margin-left: 85px;
+}
+.skype {
+	margin-right: 130px;
+}
+.bh {
+	margin-right: 145px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+#about {
+	margin: 0 auto;
+}
+p {
+	font-family: "Attentica 4F UltraLight";
+	font-size: 60pt;
+	color: #696868;
+	font-weight: normal;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+.center	{
+	font-size: 36pt;
+	text-align: center;
+}
+.center p{
+	text-align: center;
+	margin: 0;
+	margin-bottom: 40px;
+}
+.center article {
+   font-family:"Helvetica Neuel LT";
+   color: #868686;
+   line-height: 1.111;
+   font-weight: normal;
+}
+.center h4 {
+	font-family: "Attentica 4F UltraLight";
+	color: #08dbe3;
+	font-size: 40pt;
+	font-weight: normal;
+	padding-top: 35px;
+}
+.center h6 {
+	font-family: "Attentica 4F UltraLight";
+	font-size: 28pt;
+	font-weight: normal;
+	line-height: 1.2;
+}
+table {
+	margin: 0 auto;
+	text-align: left;
+}
+.one{
+	font-family: "Attentica 4F UltraLight";
+	font-size: 60pt;
+	color: #696868;
+	font-weight: normal;
+	display: block;
+	float: left;
+}
+.second {
+	color: #08dbe3;
+	font-size: 12pt;
+	float: left;
+}
+.second img {
+	float: left;
+}
+.experience {
+	margin-bottom: 40px;
+	display: block;
+	float: left;
+}
+.col p{
+	margin-left: 40px;
+}
+#pics img {
+	margin-right: 15px;
+}
