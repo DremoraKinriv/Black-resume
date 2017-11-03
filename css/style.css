@@ -1,7 +1,6 @@
-* h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl{
-    margin: 20px 0;
-    padding: 0;
-    margin: 0;
+h1, h3 {
+	margin: 0;
+	padding: 0;
 }
 @font-face {
     font-family: "Essence Sans"; /* Гарнитура шрифта */
@@ -19,23 +18,22 @@
    font-family: "Attentica 4F UltraLight";
    src: url("../fonts/Attentic4FUltraLight.otf");
 }
+@media (min-width: 1200px){	
+}
 body {
 	font-family: Arial, sans-serif;
-	margin: 0 auto;
 	background-color: #2d2d2d;
 	color: #7f8b91;
 	text-transform: uppercase;
-	text-align: center;
 }
 header {
 	background: url(../img/header.png) no-repeat center top / cover;
-	}
-#all {
-	width:1920px;
-	overflow:hidden;
-	margin: 0 auto;
+	height: 400px;
+}
+.container	{
 }
 .pic {
+	position: relative;
 	text-align: center;
 }
 .title h3 {
@@ -53,104 +51,9 @@ header {
 	line-height: 0,5em;
 	color: #fefefe;
 }
-.contacts div {
-	display: block;
-	padding-top: 3px;
-	float: left;
+.contacs {
+	padding-top: 8px;
 	font-size: 30px;
 	font-family:"Helvetica Neuel LT";
 }
-.contacts div:last-child {
-	float: right;
-	padding-bottom: 10px;
-}
-.gmail {
-	margin-left: 130px;
-}
-.in {
-	margin-left: 85px;
-}
-.skype {
-	margin-right: 130px;
-}
-.bh {
-	margin-right: 145px;
-}
-.left {
-	float: left;
-}
-.right {
-	float: right;
-}
-#about {
-	margin: 0 auto;
-}
-p {
-	font-family: "Attentica 4F UltraLight";
-	font-size: 60pt;
-	color: #696868;
-	font-weight: normal;
-	margin-bottom: 40px;
-	margin-top: 5px;
-}
-.center	{
-	font-size: 36pt;
-	text-align: center;
-}
-.center p{
-	text-align: center;
-	margin: 0;
-	margin-bottom: 40px;
-}
-.center article {
-   font-family:"Helvetica Neuel LT";
-   color: #868686;
-   line-height: 1.111;
-   font-weight: normal;
-}
-.center h4 {
-	font-family: "Attentica 4F UltraLight";
-	color: #08dbe3;
-	font-size: 40pt;
-	font-weight: normal;
-	padding-top: 35px;
-}
-.center h6 {
-	font-family: "Attentica 4F UltraLight";
-	font-size: 28pt;
-	font-weight: normal;
-	line-height: 1.2;
-}
-.colons table {
-	margin: 0 auto;
-	text-align: left;
-	width: 100%;
-	height: 570px;
-}
-.one{
-	font-family: "Attentica 4F UltraLight";
-	font-size: 60pt;
-	color: #696868;
-	font-weight: normal;
-	display: block;
-	float: left;
-}
-.second {
-	color: #08dbe3;
-	font-size: 12pt;
-	float: left;
-}
-.second img {
-	float: left;
-}
-.experience {
-	margin-bottom: 40px;
-	display: block;
-	float: left;
-}
-.col p{
-	margin-left: 40px;
-}
-#pics img {
-	margin-right: 15px;
-}
+
