@@ -56,4 +56,47 @@ header {
 	font-size: 30px;
 	font-family:"Helvetica Neuel LT";
 }
-
+.allabout {
+	margin-top: 60px
+}
+p {
+	font-family: "Attentica 4F UltraLight";
+	font-size: 60pt;
+	color: #696868;
+	font-weight: normal;
+	margin-bottom: 40px;
+	margin-top: 5px;
+}
+.exp {
+	font-family: "Attentica 4F UltraLight";
+	font-size: 60pt;
+	color: #696868;
+	font-weight: normal;
+	float: left;
+}
+.ui {
+	color: #08dbe3;
+	font-size: 12pt;
+	float: left;
+}
+article {
+	font-family:"Helvetica Neuel LT";
+   	color: #868686;
+   	font-size: 36pt;
+   	text-transform: capitalize;
+   	line-height: 1.511;
+   	font-weight: normal;
+}
+#center h4 {
+	font-family: "Attentica 4F UltraLight";
+	color: #08dbe3;
+	font-size: 40pt;
+	font-weight: normal;
+	padding-top: 35px;
+}
+#center h6 {
+	font-family: "Attentica 4F UltraLight";
+	font-size: 28pt;
+	font-weight: normal;
+	line-height: 1.2;
+}
