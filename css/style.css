@@ -30,8 +30,6 @@ header {
 	background: url(../img/header.png) no-repeat center top / cover;
 	height: 400px;
 }
-.container	{
-}
 .pic {
 	position: relative;
 	text-align: center;
@@ -57,7 +55,7 @@ header {
 	font-family:"Helvetica Neuel LT";
 }
 .allabout {
-	margin-top: 60px
+	margin-top: 80px
 }
 p {
 	font-family: "Attentica 4F UltraLight";
@@ -65,7 +63,7 @@ p {
 	color: #696868;
 	font-weight: normal;
 	margin-bottom: 40px;
-	margin-top: 40px;
+	margin-top: 20px;
 	text-align: left;
 }
 .exp {
@@ -87,7 +85,7 @@ article {
 	font-family:"Helvetica Neuel LT";
    	color: #868686;
    	font-size: 36pt;
-   	text-transform: capitalize;
+   	text-transform: none;
    	line-height: 1.1;
    	font-variant: small-caps;
 }
@@ -117,4 +115,17 @@ table {
 }
 #pics img {
 	margin-right: 20px;
+}
+.allskill th{
+	font-family:"Helvetica Neuel LT";
+	color: #808080;
+	font-size: 30pt;
+	font-weight: normal;
+	text-transform: none;
+	font-variant: small-caps;
+	line-height: 0.8;
+	padding-top: 10px;
+}
+.allskill img {
+	margin-right: 7px;
 }
