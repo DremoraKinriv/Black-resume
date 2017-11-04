@@ -18,7 +18,7 @@ h1, h3 {
    font-family: "Attentica 4F UltraLight";
    src: url("../fonts/Attentic4FUltraLight.otf");
 }
-@media (min-width: 1200px){	
+@media (min-width: 2000px){	
 }
 body {
 	font-family: Arial, sans-serif;
@@ -65,27 +65,36 @@ p {
 	color: #696868;
 	font-weight: normal;
 	margin-bottom: 40px;
-	margin-top: 5px;
+	margin-top: 40px;
+	text-align: left;
 }
 .exp {
 	font-family: "Attentica 4F UltraLight";
 	font-size: 60pt;
 	color: #696868;
 	font-weight: normal;
-	float: left;
 }
 .ui {
 	color: #08dbe3;
-	font-size: 12pt;
-	float: left;
+	font-family: "Helvetica Neuel LT";
+	font-size: 18pt;
+	text-align: center;
+	line-height:1;
+	padding-right: 8px;
+	padding-left: 8px; 
 }
 article {
 	font-family:"Helvetica Neuel LT";
    	color: #868686;
    	font-size: 36pt;
    	text-transform: capitalize;
-   	line-height: 1.511;
-   	font-weight: normal;
+   	line-height: 1.1;
+   	font-variant: small-caps;
+}
+#center p{
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 #center h4 {
 	font-family: "Attentica 4F UltraLight";
@@ -99,4 +108,13 @@ article {
 	font-size: 28pt;
 	font-weight: normal;
 	line-height: 1.2;
+}
+.experience {
+	margin-top: 60px;
+}
+table {
+	width: 100%;
+}
+#pics img {
+	margin-right: 20px;
 }
