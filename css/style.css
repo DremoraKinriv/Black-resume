@@ -18,7 +18,7 @@ h1, h3 {
    font-family: "Attentica 4F UltraLight";
    src: url("../fonts/Attentic4FUltraLight.otf");
 }
-@media (min-width: 2000px){	
+@media (min-width: 2200px){	
 }
 body {
 	font-family: Arial, sans-serif;
@@ -113,7 +113,7 @@ article {
 table {
 	width: 100%;
 }
-#pics img {
+.pics img {
 	margin-right: 20px;
 }
 .allskill th{

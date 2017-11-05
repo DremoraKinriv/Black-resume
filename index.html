@@ -6,6 +6,7 @@
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/wobbleVertical.css">
 </head>
 	<body>
 		<header>
@@ -13,7 +14,7 @@
 				<h1>ira vosorowa</h1>
 				<h3>graphic designer</h3>
 				<figure class="pic"> 
-					<img src="img/photo.png" alt="photo">
+					<img src="img/photo.png" alt="photo" class="hvr-grow">
 				</figure>
 			</div>
 		</header>
@@ -22,10 +23,10 @@
 		  <div class="row justify-content-center">
         <div class="col">
                     <div class="row justify-content-around">
-              			   <div class="col-auto text-center">
+              			   <div class="col-auto text-center hvr-pulse">
               				<img src="img/gmail.png" alt="gm" align="bottom"> i.vosorowa@gmail.com
               					</div>
-                        <div class="col-auto text-right">
+                        <div class="col-auto text-right hvr-pulse">
                           <img src="img/behance.png" alt="bh"> /irusik
                         </div>
                     </div>
@@ -33,11 +34,11 @@
         <div class="col-2 no-gutters"></div>
         <div class="col">
                   <div class="row justify-content-around">
-                    <div class="col-auto text-center"> 
+                    <div class="col-auto text-center hvr-pulse"> 
                        <img src="img/skype.png" alt="skype">
                        irusik.vos
                     </div>
-          			     <div class="col-auto text-center">
+          			     <div class="col-auto text-center hvr-pulse">
                         <img src="img/in.png" alt="in">
                         /in/iravosorowa
                         
@@ -106,25 +107,26 @@
 							<tr>
 								<th>
 									Adobe Photoshop	
-									<img src="img/adobe.png" alt=""><img src="img/ps.png">
+									<div  class="skillbar" data-width="80" data-background="#08dbe3"></div></th><th><img src="img/ps.png">
 								</th>
 							</tr>
 							<tr>
 								<th>
 								Adobe Illustrator
-								<img src="img/ilust.png" alt=""><img src="img/ai.png">
+								<div  class="skillbar" data-width="70" data-background="#08dbe3"></div></th>
+								<th><img src="img/ai.png">
 								</th>
 							</tr>
 							<tr>
 								<th>
 								Hand/Tablet Drawing
-								<img src="img/hand.png" alt=""><img src="img/pen.png">
+								<div  class="skillbar" data-width="90" data-background="#08dbe3"></th><th><img src="img/pen.png">
 								</th>
 							</tr>
 							<tr>
 								<th>
-								UI/UX Design
-								<img src="img/bui.png" alt=""><img src="img/man.png">
+								Lying about skills<br>
+								<div  class="skillbar" data-width="100" data-background="#08dbe3"></div></th><th><img src="img/man.png">
 								</th>
 							</tr>
 						</table>
@@ -135,11 +137,11 @@
 			</div>
 			<div class="w-100"></div>
 			<div class="col">
-				<div id="pics">
-					<img src="img/bike.png" alt="bike">
-					<img src="img/music.png" alt="music">
-					<img src="img/chess.png" alt="chess">
-					<img src="img/drawing.png" alt="drawing">
+				<div class="pics">
+					<img src="img/bike.png" alt="bike" class="hvr-push">
+					<img src="img/music.png" alt="music" class="hvr-push">
+					<img src="img/chess.png" alt="chess" class="hvr-push">
+					<img src="img/drawing.png" alt="drawing" class="hvr-push">
 				</div>
 		</div>
 		</div>
@@ -154,10 +156,12 @@
 
 
 
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+	
+	<script src="js/simple-skillbar.js"></script>
 
-
-
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+ 	<script src="js/skill.js"></script>
+ 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   
 	</body>
