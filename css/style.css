@@ -18,7 +18,7 @@ h1, h3 {
    font-family: "Attentica 4F UltraLight";
    src: url("../fonts/Attentic4FUltraLight.otf");
 }
-@media (min-width: 2200px){	
+@media (min-width: 2560px){	
 }
 body {
 	font-family: Arial, sans-serif;
@@ -94,6 +94,9 @@ article {
 	margin: 0;
 	padding: 0;
 }
+table {
+	width: 100%;
+}
 #center h4 {
 	font-family: "Attentica 4F UltraLight";
 	color: #08dbe3;
@@ -109,12 +112,13 @@ article {
 }
 .experience {
 	margin-top: 60px;
-}
-table {
 	width: 100%;
 }
+.experience table {
+	max-width: 480px;
+}
 .pics img {
-	margin-right: 20px;
+	
 }
 .allskill th{
 	font-family:"Helvetica Neuel LT";
@@ -127,5 +131,9 @@ table {
 	padding-top: 10px;
 }
 .allskill img {
-	margin-right: 7px;
+	margin-left: 7px;
+}
+.scaleimg{
+	max-height: 160px; 
+    width: auto; 
 }
